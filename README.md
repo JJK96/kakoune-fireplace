@@ -15,6 +15,6 @@ Inspired by [Emacs fireplace](https://github.com/johanvts/emacs-fireplace)
 
 Run `:fireplace`
 
-Scroll to the bottom of the file (<key>gj</key>)
+Scroll to the bottom of the file (<kbd>gj</kbd>)
 
 You are suggested to disable line wrapping, line numbers and scrolloff for the best results.
