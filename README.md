@@ -1,4 +1,4 @@
-# A simple fireplace in kakoune
+# A fireplace in kakoune
 
 Based on [this fireplace](https://medium.com/sweetmeat/python-curses-based-ascii-art-fire-animation-259e9e007767)
 
