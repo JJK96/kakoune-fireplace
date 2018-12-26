@@ -19,7 +19,7 @@ while 1:
     for i in range(size):
         b[i] = int((b[i] + b[i + 1] + b[i + width] + b[i + width + 1]) / 4)
         color = (4 if b[i] > 15 else (3 if b[i] > 9 else
-                                      (2 if b[i] > 4 else 1)))
+                                      (2 if b[i] > 4 else 
     string = ""
     for i in range(int(len(b) / width)):
         string += ''.join([char[(9 if x > 9 else x)] for x in b[i*width:(i+1)*width]])
