@@ -4,6 +4,8 @@ Based on [this fireplace](https://medium.com/sweetmeat/python-curses-based-ascii
 
 Inspired by [Emacs fireplace](https://github.com/johanvts/emacs-fireplace)
 
+![Screenshot](https://raw.githubusercontent.com/JJK96/kakoune-fireplace/master/screenshot.png)
+
 ## Installation
 
 - Symlink `fireplace.py` to `%val{config}/bin/`
