@@ -8,12 +8,11 @@ define-command fireplace %{
         echo "edit! -fifo ${output} -scroll *fireplace*
 hook buffer BufClose .* %{ nop %sh{ rm -r $(dirname ${output})}}
 add-highlighter window/colors group 
-add-highlighter window/colors/ regex (\\$) 0:rgb:ff0000
-add-highlighter window/colors/ regex %{#} 0:rgb:ff5a00
+add-highlighter window/colors/ regex (\\$) 0:rgb:ffe808
+add-highlighter window/colors/ regex %{#} 0:rgb:ffce00
 add-highlighter window/colors/ regex %{S} 0:rgb:ff9a00
-add-highlighter window/colors/ regex %{s} 0:rgb:ffce00
-add-highlighter window/colors/ regex %{x} 0:rgb:ffe808
-execute-keys gj
+add-highlighter window/colors/ regex %{s} 0:rgb:ff5a00
+add-highlighter window/colors/ regex %{x} 0:rgb:ff0000
 "
     }
 }
