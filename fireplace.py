@@ -4,7 +4,7 @@ import time
 import os
 import sys
 
-width = int(os.environ['kak_window_width'])
+width = int(os.environ['kak_window_width'])-1
 height = int(os.environ['kak_window_height'])
 size = width * height
 char = [" ", ".", ":", "^", "*", "x", "s", "S", "#", "$"]
