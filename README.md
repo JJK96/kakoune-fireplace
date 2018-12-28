@@ -8,8 +8,20 @@ Inspired by [Emacs fireplace](https://github.com/johanvts/emacs-fireplace)
 
 ## Installation
 
-- Symlink `fireplace.py` to `%val{config}/bin/`
-- Let kakoune load `fireplace.kak`
+### With [plug.kak](https://github.com/andreyorst/plug.kak) (recommended)
+
+Add the following to your `kakrc`
+
+```
+plug "jjk96/kakoune-fireplace"
+```
+
+Then reload restart Kakoune and run `:plug-install`
+
+### Manual
+
+- Source `fireplace.kak`
+- Edit `fireplace.kak` so that the correct location of `fireplace.py` is used.
 
 ## Usage
 
